@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc38b60fb37ba4831985a068e1d28e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookAtPoint: {x: 0, y: 0, z: 0}
+  lookAtPoint: {x: 0, y: 1.43, z: 0}
 --- !u!65 &103292063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -204,8 +204,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103292061}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.014761338, y: -0.66982377, z: 0.013320908, w: 0.74225384}
+  m_LocalPosition: {x: 3.5, y: 1.57, z: -0.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc38b60fb37ba4831985a068e1d28e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookAtPoint: {x: 0, y: 0, z: 0}
+  lookAtPoint: {x: 0, y: -9.81, z: 0}
 --- !u!65 &703007168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -543,7 +543,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703007166}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0.8710096, z: -0.49126604, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 5.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 1679701925}
   - component: {fileID: 1679701926}
   - component: {fileID: 1679701924}
+  - component: {fileID: 1679701927}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -605,3 +606,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 103292061}
   spawnPoint: {x: 2, y: 5, z: 0}
+--- !u!114 &1679701927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1679701923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d670675318f4ae7b5b9c5eaed52956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 371
+  health: 5.58
+  target: {x: 3.62, y: 2.79, z: 7.43}
